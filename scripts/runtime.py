@@ -103,6 +103,7 @@ def chrome_candidates() -> list[Path]:
         "chromium",
         "chrome",
         "helium",
+        "brave-browser",
     ):
         p = which(name)
         if p:
